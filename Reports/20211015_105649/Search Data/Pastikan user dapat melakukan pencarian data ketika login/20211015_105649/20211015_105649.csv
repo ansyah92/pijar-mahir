@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan user dapat melakukan pencarian data ketika login,Chrome 94.0.4606.81,,,2021-10-15 10:57:05,2021-10-15 10:57:34,29.132s,PASSED
+,,,,,,,
+Test Cases/User/Search/Pastikan User dapat mengakses Pecarian data,Chrome 94.0.4606.81,,,2021-10-15 10:57:05,2021-10-15 10:57:34,28.420s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-15 10:57:06,2021-10-15 10:57:24,18.135s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-15 10:57:24,2021-10-15 10:57:29,4.676s,PASSED
+"setText(findTestObject(""Search/input_Kategori_search""), ""kursus test"")",Chrome 94.0.4606.81,,,2021-10-15 10:57:29,2021-10-15 10:57:30,1.230s,PASSED
+"click(findTestObject(""Search/button_Kategori_w-10 h-full flex justify-center items-center bg-black-200""))",Chrome 94.0.4606.81,,,2021-10-15 10:57:30,2021-10-15 10:57:31,0.719s,PASSED
+"click(findTestObject(""Search/Page_Pijar Mahir/img_Kategori_mdmr-12 mr-2 cursor-pointer""))",Chrome 94.0.4606.81,,,2021-10-15 10:57:31,2021-10-15 10:57:33,2.307s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-15 10:57:33,2021-10-15 10:57:34,0.545s,PASSED
