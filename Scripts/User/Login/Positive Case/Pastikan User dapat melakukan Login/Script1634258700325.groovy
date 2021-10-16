@@ -21,11 +21,9 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandl
 
 WebUI.callTestCase(findTestCase('CustomKeyword/Negative to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5'))
 
-WebUI.click(findTestObject('Login/button_X_Modal'))
-
-WebUI.click(findTestObject('Login/button_Masuk_hal_login'))
+WebUI.click(findTestObject('Login/Page_Pijar Mahir/button_Masuk'))
 
 WebUI.setText(findTestObject('Login/input_Email_email'), username)
 
