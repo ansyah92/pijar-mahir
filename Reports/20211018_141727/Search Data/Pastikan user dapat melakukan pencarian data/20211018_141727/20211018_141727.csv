@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan user dapat melakukan pencarian data,Chrome 94.0.4606.81,,,2021-10-18 14:17:39,2021-10-18 14:18:20,40.964s,PASSED
+,,,,,,,
+Test Cases/User/Search/Pastikan User dapat mengakses Pecarian data Ketika Belum Login,Chrome 94.0.4606.81,,,2021-10-18 14:17:40,2021-10-18 14:17:58,18.292s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-18 14:17:40,2021-10-18 14:17:44,3.909s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Negative to URL""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-18 14:17:44,2021-10-18 14:17:48,3.489s,PASSED
+"click(findTestObject(""Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:48,2021-10-18 14:17:49,0.910s,PASSED
+"focus(findTestObject(""Search/Page_Pijar Mahir/button_Pijar Camp""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:49,2021-10-18 14:17:50,1.111s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:50,2021-10-18 14:17:51,0.931s,PASSED
+"setText(findTestObject(""Search/input_Kategori_search""), ""Kopi"")",Chrome 94.0.4606.81,,,2021-10-18 14:17:51,2021-10-18 14:17:52,1.189s,PASSED
+"click(findTestObject(""Search/button_Kategori_w-10 h-full flex justify-center items-center bg-black-200""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:52,2021-10-18 14:17:53,0.536s,PASSED
+"click(findTestObject(""Search/Page_Pijar Mahir/img_Kategori_mdmr-12 mr-2 cursor-pointer""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:53,2021-10-18 14:17:54,1.505s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:54,2021-10-18 14:17:55,0.669s,PASSED
+"setText(findTestObject(""Search/input_Kategori_search""), ""Tips Jago"")",Chrome 94.0.4606.81,,,2021-10-18 14:17:55,2021-10-18 14:17:56,1.066s,PASSED
+"click(findTestObject(""Search/button_Kategori_w-10 h-full flex justify-center items-center bg-black-200""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:56,2021-10-18 14:17:56,0.556s,PASSED
+"click(findTestObject(""Search/Page_Pijar Mahir/img_Kategori_mdmr-12 mr-2 cursor-pointer""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:56,2021-10-18 14:17:57,0.924s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-18 14:17:57,2021-10-18 14:17:58,0.769s,PASSED
+,,,,,,,
+Test Cases/User/Search/Pastikan User dapat mengakses Pecarian data Ketika Login,Chrome 94.0.4606.81,,,2021-10-18 14:17:58,2021-10-18 14:18:20,22.027s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-18 14:17:59,2021-10-18 14:18:08,8.988s,PASSED
+"focus(findTestObject(""Search/Page_Pijar Mahir/button_Pijar Camp""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:08,2021-10-18 14:18:11,3.175s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:11,2021-10-18 14:18:11,0.551s,PASSED
+"setText(findTestObject(""Search/input_Kategori_search""), ""Kopi"")",Chrome 94.0.4606.81,,,2021-10-18 14:18:11,2021-10-18 14:18:13,1.402s,PASSED
+"click(findTestObject(""Search/button_Kategori_w-10 h-full flex justify-center items-center bg-black-200""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:13,2021-10-18 14:18:13,0.490s,PASSED
+"click(findTestObject(""Search/Page_Pijar Mahir/img_Kategori_mdmr-12 mr-2 cursor-pointer""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:13,2021-10-18 14:18:15,1.893s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:15,2021-10-18 14:18:16,0.661s,PASSED
+"setText(findTestObject(""Search/input_Kategori_search""), ""Tips Jago"")",Chrome 94.0.4606.81,,,2021-10-18 14:18:16,2021-10-18 14:18:17,1.273s,PASSED
+"click(findTestObject(""Search/button_Kategori_w-10 h-full flex justify-center items-center bg-black-200""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:17,2021-10-18 14:18:18,0.727s,PASSED
+"click(findTestObject(""Search/Page_Pijar Mahir/img_Kategori_mdmr-12 mr-2 cursor-pointer""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:18,2021-10-18 14:18:19,1.447s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 94.0.4606.81,,,2021-10-18 14:18:19,2021-10-18 14:18:20,0.755s,PASSED
