@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pastikan User dapat mengakses Pijar Camp" time="96.588" tests="3" failures="0" errors="0">
+   <testsuite name="Pastikan User dapat mengakses Pijar Camp" tests="3" failures="0" errors="0" time="96.588" skipped="0" timestamp="2021-10-28 08:03:10" hostname="ardiansyah - manjaro" id="Test Suites/Pijar Camp/Pastikan User dapat mengakses Pijar Camp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ardiansyah/Work/pijar-mahir/Reports/20211028_080258/Pijar Camp/Pastikan User dapat mengakses Pijar Camp/20211028_080258"/>
+         <property name="logFiles" value="/home/ardiansyah/Work/pijar-mahir/Reports/20211028_080258/Pijar Camp/Pastikan User dapat mengakses Pijar Camp/20211028_080258/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - manjaro"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="de812b6765dc5799bdde74dd71dcfdbc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sebelum Login" time="43.118" classname="Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sebelum Login" status="PASSED">
+         <system-out><![CDATA[2021-10-28 08:03:10 - [TEST_CASE][PASSED] - Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sebelum Login: Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sebelum Login
+
+2021-10-28 08:03:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-28 08:03:11 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-28 08:03:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-28 08:03:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 08:03:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 08:03:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-28 08:03:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-28 08:03:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-28 08:03:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-28 08:03:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Negative to URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2021-10-28 08:03:14 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Negative to URL: Test Cases/CustomKeyword/Negative to URL
+
+2021-10-28 08:03:15 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2021-10-28 08:03:17 - [MESSAGE][PASSED] - Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2021-10-28 08:03:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2021-10-28 08:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5")): Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2021-10-28 08:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2021-10-28 08:03:18 - [TEST_STEP][PASSED] - focus(findTestObject("Pijar Camp/Top Pijar Camp/button_Pijar Camp")): Object: 'Object Repository/Pijar Camp/Top Pijar Camp/button_Pijar Camp' is focused
+
+2021-10-28 08:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Pijar Camp/Top Pijar Camp/button_Pijar Camp' is focused
+
+2021-10-28 08:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Pijar Camp/Top Pijar Camp/button_Kunjungi Pijar Camp")): Object: 'Object Repository/Pijar Camp/Top Pijar Camp/button_Kunjungi Pijar Camp' is clicked on
+
+2021-10-28 08:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pijar Camp/Top Pijar Camp/button_Kunjungi Pijar Camp' is clicked on
+
+2021-10-28 08:03:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/h3_Mulai Karir  Teknologi Bersama  Pijar Camp"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/h3_Mulai Karir  Teknologi Bersama  Pijar Camp' successfully
+
+2021-10-28 08:03:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/h3_Mulai Karir  Teknologi Bersama  Pijar Camp' successfully
+
+2021-10-28 08:03:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:03:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:03:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_TENTANG PIJAR CAMP"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PIJAR CAMP' successfully
+
+2021-10-28 08:03:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PIJAR CAMP' successfully
+
+2021-10-28 08:03:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:03:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:03:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_KEUNTUNGAN GABUNG PIJAR CAMP"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KEUNTUNGAN GABUNG PIJAR CAMP' successfully
+
+2021-10-28 08:03:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KEUNTUNGAN GABUNG PIJAR CAMP' successfully
+
+2021-10-28 08:03:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:03:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:03:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_TENTANG PROGRAM PIJAR CAMP"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PROGRAM PIJAR CAMP' successfully
+
+2021-10-28 08:03:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PROGRAM PIJAR CAMP' successfully
+
+2021-10-28 08:03:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:03:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:03:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_TESTIMONI ALUMNI"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TESTIMONI ALUMNI' successfully
+
+2021-10-28 08:03:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TESTIMONI ALUMNI' successfully
+
+2021-10-28 08:03:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:03:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:03:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_KISAH SUKSES"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KISAH SUKSES' successfully
+
+2021-10-28 08:03:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KISAH SUKSES' successfully
+
+2021-10-28 08:03:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:03:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:03:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_Mulai Karirmu Bersama Pijar Camp"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_Mulai Karirmu Bersama Pijar Camp' successfully
+
+2021-10-28 08:03:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_Mulai Karirmu Bersama Pijar Camp' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login" time="8.52" classname="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login" status="PASSED">
+         <system-out><![CDATA[2021-10-28 08:03:54 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login
+
+2021-10-28 08:03:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-28 08:03:54 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-28 08:03:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-28 08:03:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 08:03:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 08:03:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 08:03:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-28 08:03:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-28 08:03:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-28 08:03:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-28 08:03:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Negative to URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2021-10-28 08:03:55 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Negative to URL: Test Cases/CustomKeyword/Negative to URL
+
+2021-10-28 08:03:55 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2021-10-28 08:03:58 - [MESSAGE][PASSED] - Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2021-10-28 08:03:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2021-10-28 08:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5")): Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2021-10-28 08:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2021-10-28 08:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Pijar Mahir/button_Masuk")): Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2021-10-28 08:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2021-10-28 08:04:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email_email"), username): Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2021-10-28 08:04:01 - [MESSAGE][PASSED] - Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2021-10-28 08:04:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password_password"), password): Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2021-10-28 08:04:02 - [MESSAGE][PASSED] - Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2021-10-28 08:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2021-10-28 08:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sesudah Login" time="43.846" classname="Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sesudah Login" status="PASSED">
+         <system-out><![CDATA[2021-10-28 08:04:02 - [TEST_CASE][PASSED] - Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sesudah Login: Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sesudah Login
+
+2021-10-28 08:04:03 - [TEST_STEP][PASSED] - focus(findTestObject("Pijar Camp/Top Pijar Camp Login/Page_Pijar Mahir/button_Pijar Camp")): Object: 'Object Repository/Pijar Camp/Top Pijar Camp Login/Page_Pijar Mahir/button_Pijar Camp' is focused
+
+2021-10-28 08:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pijar Camp/Top Pijar Camp Login/Page_Pijar Mahir/button_Pijar Camp' is focused
+
+2021-10-28 08:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Pijar Camp/Top Pijar Camp Login/Page_Pijar Mahir/button_Kunjungi Pijar Camp")): Object: 'Object Repository/Pijar Camp/Top Pijar Camp Login/Page_Pijar Mahir/button_Kunjungi Pijar Camp' is clicked on
+
+2021-10-28 08:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pijar Camp/Top Pijar Camp Login/Page_Pijar Mahir/button_Kunjungi Pijar Camp' is clicked on
+
+2021-10-28 08:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Pijar Camp/Page_Pijar Camp/button_Pelajari Bootcamp")): Object: 'Object Repository/Pijar Camp/Page_Pijar Camp/button_Pelajari Bootcamp' is clicked on
+
+2021-10-28 08:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pijar Camp/Page_Pijar Camp/button_Pelajari Bootcamp' is clicked on
+
+2021-10-28 08:04:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/h3_Mulai Karir  Teknologi Bersama  Pijar Camp"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/h3_Mulai Karir  Teknologi Bersama  Pijar Camp' successfully
+
+2021-10-28 08:04:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/h3_Mulai Karir  Teknologi Bersama  Pijar Camp' successfully
+
+2021-10-28 08:04:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_TENTANG PIJAR CAMP"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PIJAR CAMP' successfully
+
+2021-10-28 08:04:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PIJAR CAMP' successfully
+
+2021-10-28 08:04:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_KEUNTUNGAN GABUNG PIJAR CAMP"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KEUNTUNGAN GABUNG PIJAR CAMP' successfully
+
+2021-10-28 08:04:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KEUNTUNGAN GABUNG PIJAR CAMP' successfully
+
+2021-10-28 08:04:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_TENTANG PROGRAM PIJAR CAMP"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PROGRAM PIJAR CAMP' successfully
+
+2021-10-28 08:04:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TENTANG PROGRAM PIJAR CAMP' successfully
+
+2021-10-28 08:04:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_TESTIMONI ALUMNI"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TESTIMONI ALUMNI' successfully
+
+2021-10-28 08:04:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_TESTIMONI ALUMNI' successfully
+
+2021-10-28 08:04:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_KISAH SUKSES"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KISAH SUKSES' successfully
+
+2021-10-28 08:04:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_KISAH SUKSES' successfully
+
+2021-10-28 08:04:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-10-28 08:04:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-28 08:04:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Pijar Camp/Page_Pijar Camp/p_Mulai Karirmu Bersama Pijar Camp"), 10): Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_Mulai Karirmu Bersama Pijar Camp' successfully
+
+2021-10-28 08:04:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pijar Camp/Page_Pijar Camp/p_Mulai Karirmu Bersama Pijar Camp' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-28 08:03:10 - [TEST_SUITE][PASSED] - Pastikan User dapat mengakses Pijar Camp: Test Cases/User/Pijar Camp/Desktop/Pastikan User dapat mengakses Pijar Camp Sesudah Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

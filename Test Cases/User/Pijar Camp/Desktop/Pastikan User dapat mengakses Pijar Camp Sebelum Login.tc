@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User dapat mengakses Pijar Camp Sebelum Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9e6c4ff-533f-4d64-a86d-1f9eea5fb681</testCaseGuid>
+</TestCaseEntity>
