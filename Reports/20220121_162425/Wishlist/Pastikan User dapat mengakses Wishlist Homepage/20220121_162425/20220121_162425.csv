@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan User dapat mengakses Wishlist Homepage,Chrome 97.0.4692.99,,,2022-01-21 16:24:38,2022-01-21 16:25:24,46.736s,FAILED
+,,,,,,,
+Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist,Chrome 97.0.4692.99,,,2022-01-21 16:24:38,2022-01-21 16:24:58,19.601s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-21 16:24:38,2022-01-21 16:24:53,14.223s,PASSED
+"focus(findTestObject(""Top Bar/Page_Pijar Mahir/button_profile""))",Chrome 97.0.4692.99,,,2022-01-21 16:24:53,2022-01-21 16:24:56,3.474s,PASSED
+"click(findTestObject(""Top Bar/Page_Pijar Mahir/span_Wishlist Saya""))",Chrome 97.0.4692.99,,,2022-01-21 16:24:56,2022-01-21 16:24:57,0.845s,PASSED
+"verifyElementText(findTestObject(""Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya""), ""Wishlist Saya"")",Chrome 97.0.4692.99,,,2022-01-21 16:24:57,2022-01-21 16:24:58,0.668s,PASSED
+,,,,,,,
+Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wistlist di Homepage,Chrome 97.0.4692.99,,,2022-01-21 16:24:58,2022-01-21 16:25:24,26.665s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-21 16:24:58,2022-01-21 16:25:08,10.536s,PASSED
+"verifyElementText(findTestObject(""Home Page/Page_Pijar Mahir/h3_Kategori""), ""Kategori"")",Chrome 97.0.4692.99,,,2022-01-21 16:25:08,2022-01-21 16:25:12,3.488s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Pijar Mahir/h3_Kategori""), 0)",Chrome 97.0.4692.99,,,2022-01-21 16:25:12,2022-01-21 16:25:12,0.354s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-21 16:25:12,2022-01-21 16:25:15,3.032s,PASSED
+"verifyElementText(findTestObject(""Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari""), ""Terakhir dicari"")",Chrome 97.0.4692.99,,,2022-01-21 16:25:15,2022-01-21 16:25:16,0.316s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari""), 0)",Chrome 97.0.4692.99,,,2022-01-21 16:25:16,2022-01-21 16:25:16,0.284s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-21 16:25:16,2022-01-21 16:25:19,3.005s,PASSED
+"verifyElementText(findTestObject(""Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir""), ""Kelas Terbaik Pijar Mahir!"")",Chrome 97.0.4692.99,,,2022-01-21 16:25:19,2022-01-21 16:25:20,0.627s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir""), 0)",Chrome 97.0.4692.99,,,2022-01-21 16:25:20,2022-01-21 16:25:20,0.277s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-21 16:25:20,2022-01-21 16:25:23,3.008s,PASSED
+"verifyElementText(findTestObject(""Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Siap Jadi Talenta Digital Terbaik""), ""Siap Jadi Talenta Digital Terbaik!"")",Chrome 97.0.4692.99,,,2022-01-21 16:25:23,2022-01-21 16:25:24,1.476s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Melakukan Logout Aplikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8d4ad11-bd8b-4626-9b04-dd237f2b680d</testCaseGuid>
+</TestCaseEntity>

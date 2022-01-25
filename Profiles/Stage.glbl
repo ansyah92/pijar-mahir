@@ -4,4 +4,9 @@
    <name>Stage</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://mainstage2.pijarmahir.id'</initValue>
+      <name>BASE_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

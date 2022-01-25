@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Mengakses Riwayat Transaksi Berhasil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27b3d67f-cac9-4e72-8110-1daefbc26d1b</testCaseGuid>
+</TestCaseEntity>
