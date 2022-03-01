@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Menambah Wistlist di Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1cf5da3-4bde-4d0f-b14d-7fd3052eb6d4</testCaseGuid>
+</TestCaseEntity>

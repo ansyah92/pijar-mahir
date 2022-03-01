@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan User Dapat Mengakses Keranjang,Chrome 97.0.4692.99,,,2022-01-28 15:04:11,2022-01-28 15:06:30,2m - 19.247s,PASSED
+,,,,,,,
+Test Cases/User/Keranjang/Positive Case/Pastikan User Dapat Menambah Course Ke Keranjang,Chrome 97.0.4692.99,,,2022-01-28 15:04:12,2022-01-28 15:05:03,51.267s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-28 15:04:12,2022-01-28 15:04:26,13.911s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Kategori""), ""Kategori"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:26,2022-01-28 15:04:30,3.597s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Kategori""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:30,2022-01-28 15:04:30,0.377s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:30,2022-01-28 15:04:33,3.022s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Terakhir dicari""), ""Terakhir dicari"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:33,2022-01-28 15:04:33,0.343s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Terakhir dicari""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:33,2022-01-28 15:04:34,0.296s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:34,2022-01-28 15:04:37,3.012s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Kelas Terbaik Pijar Mahir""), ""Kelas Terbaik Pijar Mahir!"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:37,2022-01-28 15:04:37,0.336s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Kelas Terbaik Pijar Mahir""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:37,2022-01-28 15:04:37,0.285s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:37,2022-01-28 15:04:40,3.008s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Rekomendasi Kursus""), ""Rekomendasi Kursus"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:40,2022-01-28 15:04:41,0.335s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Rekomendasi Kursus""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:41,2022-01-28 15:04:41,0.325s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:41,2022-01-28 15:04:44,3.010s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Siap Jadi Talenta Digital Terbaik""), ""Siap Jadi Talenta Digital Terbaik!"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:44,2022-01-28 15:04:44,0.309s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Siap Jadi Talenta Digital Terbaik""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:44,2022-01-28 15:04:45,0.290s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:45,2022-01-28 15:04:48,3.007s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Best Seller""), ""Best Seller"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:48,2022-01-28 15:04:48,0.384s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Best Seller""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:48,2022-01-28 15:04:48,0.319s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:48,2022-01-28 15:04:51,3.004s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Populer Saat Ini""), ""Populer Saat Ini"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:51,2022-01-28 15:04:52,0.315s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Populer Saat Ini""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:52,2022-01-28 15:04:52,0.338s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:52,2022-01-28 15:04:55,3.007s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Kartu Prakerja""), ""Kartu Prakerja"")",Chrome 97.0.4692.99,,,2022-01-28 15:04:55,2022-01-28 15:04:55,0.326s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Kartu Prakerja""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:04:55,2022-01-28 15:04:56,0.295s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:04:56,2022-01-28 15:04:59,3.010s,PASSED
+"focus(findTestObject(""Keranjang/div_Eksis di Google dengan Google My BusinessLEAP""))",Chrome 97.0.4692.99,,,2022-01-28 15:04:59,2022-01-28 15:04:59,0.452s,PASSED
+"click(findTestObject(""Keranjang/div_Eksis di Google dengan Google My BusinessLEAP""))",Chrome 97.0.4692.99,,,2022-01-28 15:04:59,2022-01-28 15:04:59,0.371s,PASSED
+"click(findTestObject(""Keranjang/button_Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:04:59,2022-01-28 15:05:02,2.338s,PASSED
+"click(findTestObject(""Keranjang/Page_Pijar Mahir/button_Lihat Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:05:02,2022-01-28 15:05:03,1.172s,PASSED
+,,,,,,,
+Test Cases/User/Keranjang/Positive Case/Pastikan User Dapat Menghapus Data Keranjang,Chrome 97.0.4692.99,,,2022-01-28 15:05:03,2022-01-28 15:05:20,17.215s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-28 15:05:03,2022-01-28 15:05:14,10.904s,PASSED
+"focus(findTestObject(""Keranjang/Page_Pijar Mahir/button_Keranjang_Top""))",Chrome 97.0.4692.99,,,2022-01-28 15:05:14,2022-01-28 15:05:18,3.848s,PASSED
+"click(findTestObject(""Keranjang/Page_Pijar Mahir/a_Lihat Semua_Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:05:18,2022-01-28 15:05:19,0.773s,PASSED
+"click(findTestObject(""Keranjang/Page_Pijar Mahir/button_Hapus_Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:05:19,2022-01-28 15:05:20,0.811s,PASSED
+"click(findTestObject(""Keranjang/Page_Pijar Mahir/button_Hapus Kursus_Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:05:20,2022-01-28 15:05:20,0.543s,PASSED
+,,,,,,,
+Test Cases/User/Keranjang/Positive Case/Pastikan User Dapat Menambah Course Ke Keranjang dan Pindah Ke Wishlist,Chrome 97.0.4692.99,,,2022-01-28 15:05:20,2022-01-28 15:06:11,50.815s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""fitrianisa@yopmail.com"", ""password"":""123Abcde""], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-28 15:05:21,2022-01-28 15:05:31,10.927s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Kategori""), ""Kategori"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:31,2022-01-28 15:05:35,3.373s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Kategori""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:35,2022-01-28 15:05:35,0.306s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:35,2022-01-28 15:05:38,3.007s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Terakhir dicari""), ""Terakhir dicari"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:38,2022-01-28 15:05:38,0.315s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Terakhir dicari""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:38,2022-01-28 15:05:39,0.286s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:39,2022-01-28 15:05:42,3.010s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Kelas Terbaik Pijar Mahir""), ""Kelas Terbaik Pijar Mahir!"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:42,2022-01-28 15:05:42,0.322s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Kelas Terbaik Pijar Mahir""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:42,2022-01-28 15:05:42,0.284s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:42,2022-01-28 15:05:45,3.006s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Rekomendasi Kursus""), ""Rekomendasi Kursus"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:45,2022-01-28 15:05:46,0.346s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Rekomendasi Kursus""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:46,2022-01-28 15:05:46,0.322s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:46,2022-01-28 15:05:49,3.010s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Siap Jadi Talenta Digital Terbaik""), ""Siap Jadi Talenta Digital Terbaik!"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:49,2022-01-28 15:05:49,0.315s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Siap Jadi Talenta Digital Terbaik""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:49,2022-01-28 15:05:50,0.265s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:50,2022-01-28 15:05:53,3.003s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Best Seller""), ""Best Seller"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:53,2022-01-28 15:05:53,0.293s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Best Seller""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:53,2022-01-28 15:05:53,0.272s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:53,2022-01-28 15:05:56,3.007s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Populer Saat Ini""), ""Populer Saat Ini"")",Chrome 97.0.4692.99,,,2022-01-28 15:05:56,2022-01-28 15:05:57,0.300s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Populer Saat Ini""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:05:57,2022-01-28 15:05:57,0.278s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:05:57,2022-01-28 15:06:00,3.012s,PASSED
+"verifyElementText(findTestObject(""Keranjang/h3_Kartu Prakerja""), ""Kartu Prakerja"")",Chrome 97.0.4692.99,,,2022-01-28 15:06:00,2022-01-28 15:06:00,0.300s,PASSED
+"scrollToElement(findTestObject(""Keranjang/h3_Kartu Prakerja""), 0)",Chrome 97.0.4692.99,,,2022-01-28 15:06:00,2022-01-28 15:06:00,0.278s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:06:00,2022-01-28 15:06:03,3.046s,PASSED
+"focus(findTestObject(""Keranjang/div_Eksis di Google dengan Google My BusinessLEAP""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:03,2022-01-28 15:06:04,0.491s,PASSED
+"click(findTestObject(""Keranjang/div_Eksis di Google dengan Google My BusinessLEAP""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:04,2022-01-28 15:06:04,0.412s,PASSED
+"click(findTestObject(""Keranjang/button_Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:04,2022-01-28 15:06:06,2.096s,PASSED
+"click(findTestObject(""Keranjang/Page_Pijar Mahir/button_Lihat Keranjang""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:06,2022-01-28 15:06:07,0.967s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-01-28 15:06:07,2022-01-28 15:06:10,3.010s,PASSED
+"click(findTestObject(""Keranjang/Page_Pijar Mahir/button_Pindahkan ke Wishlist""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:10,2022-01-28 15:06:11,0.517s,PASSED
+,,,,,,,
+Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wishlist,Chrome 97.0.4692.99,,,2022-01-28 15:06:11,2022-01-28 15:06:30,19.443s,PASSED
+"callTestCase(findTestCase(""User/Wishlist/Pastikan User Dapat Mengakses Wishlist""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-28 15:06:11,2022-01-28 15:06:29,17.393s,PASSED
+"click(findTestObject(""Wishlist/Page_Pijar Mahir - Wishlist/btn_hapus_wishlist""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:29,2022-01-28 15:06:29,0.618s,PASSED
+"verifyElementText(findTestObject(""Wishlist/Page_Pijar Mahir - Wishlist/p_Kamu yakin mau hapus kursus ini""), ""Kamu yakin mau hapus kursus ini?"")",Chrome 97.0.4692.99,,,2022-01-28 15:06:29,2022-01-28 15:06:30,0.572s,PASSED
+"click(findTestObject(""Wishlist/Page_Pijar Mahir - Wishlist/button_Hapus""))",Chrome 97.0.4692.99,,,2022-01-28 15:06:30,2022-01-28 15:06:30,0.642s,PASSED

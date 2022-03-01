@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Mengakses Get All Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b213a9d7-14db-445c-ad5d-944d4ef63d06</testCaseGuid>
+</TestCaseEntity>

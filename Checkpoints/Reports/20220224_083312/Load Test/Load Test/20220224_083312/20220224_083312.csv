@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Load Test,Chrome 98.0.4758.102,,,2022-02-24 08:33:23,2022-02-24 08:33:43,19.501s,FAILED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Home Page Get All Course of Prakerja,Chrome 98.0.4758.102,,,2022-02-24 08:33:24,2022-02-24 08:33:31,6.899s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 08:33:24,2022-02-24 08:33:31,6.456s,FAILED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Home Page Get Dynamic Collection for Landing Page,Chrome 98.0.4758.102,,,2022-02-24 08:33:31,2022-02-24 08:33:33,2.407s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 08:33:31,2022-02-24 08:33:33,2.197s,FAILED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Kursus Saya Pijar Mahir,Chrome 98.0.4758.102,,,2022-02-24 08:33:33,2022-02-24 08:33:36,2.474s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 08:33:34,2022-02-24 08:33:36,2.208s,FAILED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User dapat mengakses Pecarian data dan Detail Course Ketika Login,Chrome 98.0.4758.102,,,2022-02-24 08:33:36,2022-02-24 08:33:38,2.499s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 08:33:36,2022-02-24 08:33:38,2.177s,FAILED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Sertifikat Saya,Chrome 98.0.4758.102,,,2022-02-24 08:33:38,2022-02-24 08:33:41,2.306s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 08:33:38,2022-02-24 08:33:41,2.122s,FAILED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Wishlist,Chrome 98.0.4758.102,,,2022-02-24 08:33:41,2022-02-24 08:33:43,2.383s,FAILED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 08:33:41,2022-02-24 08:33:43,2.191s,FAILED

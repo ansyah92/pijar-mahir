@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pastikan User Dapat Mengakses Wishlist Detail Course" time="99.023" tests="3" failures="0" errors="0">
+   <testsuite name="Pastikan User Dapat Mengakses Wishlist Detail Course" tests="3" failures="0" errors="0" time="99.023" skipped="0" timestamp="2022-01-24 09:32:11" hostname="ardiansyah - 192.168.1.7" id="Test Suites/Wishlist/Pastikan User Dapat Mengakses Wishlist Detail Course">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ardiansyah/Documents/Work/Telkom/PijarMahir/Katalon/GitHub/pijarmahir-automation-web/Reports/20220124_093200/Wishlist/Pastikan User Dapat Mengakses Wishlist Detail Course/20220124_093200"/>
+         <property name="logFiles" value="/Users/ardiansyah/Documents/Work/Telkom/PijarMahir/Katalon/GitHub/pijarmahir-automation-web/Reports/20220124_093200/Wishlist/Pastikan User Dapat Mengakses Wishlist Detail Course/20220124_093200/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - 192.168.1.7"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="3b4be4490a76e79f1e9c616b8427b278"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist" time="18.723" classname="Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist" status="PASSED">
+         <system-out><![CDATA[2022-01-24 09:32:11 - [TEST_CASE][PASSED] - Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist: Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist
+
+2022-01-24 09:32:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User/Login/Positive Case/Pastikan User dapat melakukan Login"), ["username":"fitrianisa@yopmail.com", "password":"123Abcde"], STOP_ON_FAILURE): Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login' successfully
+
+2022-01-24 09:32:12 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login
+
+2022-01-24 09:32:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2022-01-24 09:32:12 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2022-01-24 09:32:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 09:32:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 09:32:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 09:32:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 09:32:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-24 09:32:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-24 09:32:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2022-01-24 09:32:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Negative to URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2022-01-24 09:32:16 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Negative to URL: Test Cases/CustomKeyword/Negative to URL
+
+2022-01-24 09:32:16 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2022-01-24 09:32:21 - [MESSAGE][PASSED] - Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2022-01-24 09:32:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2022-01-24 09:32:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5")): Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2022-01-24 09:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2022-01-24 09:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Pijar Mahir/button_Masuk")): Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2022-01-24 09:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2022-01-24 09:32:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email_email"), username): Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2022-01-24 09:32:24 - [MESSAGE][PASSED] - Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2022-01-24 09:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password_password"), password): Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2022-01-24 09:32:25 - [MESSAGE][PASSED] - Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2022-01-24 09:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2022-01-24 09:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2022-01-24 09:32:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login' successfully
+
+2022-01-24 09:32:25 - [TEST_STEP][PASSED] - focus(findTestObject("Top Bar/Page_Pijar Mahir/button_profile")): Object: 'Object Repository/Top Bar/Page_Pijar Mahir/button_profile' is focused
+
+2022-01-24 09:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar/Page_Pijar Mahir/button_profile' is focused
+
+2022-01-24 09:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar/Page_Pijar Mahir/span_Wishlist Saya")): Object: 'Object Repository/Top Bar/Page_Pijar Mahir/span_Wishlist Saya' is clicked on
+
+2022-01-24 09:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar/Page_Pijar Mahir/span_Wishlist Saya' is clicked on
+
+2022-01-24 09:32:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya"), "Wishlist Saya"): Actual text and expected text of test object 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya' are matched.
+
+2022-01-24 09:32:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Wishlist/Pastikan User Dapat Menambah Wishlist di Detail Course" time="62.056" classname="Test Cases/User/Wishlist/Pastikan User Dapat Menambah Wishlist di Detail Course" status="PASSED">
+         <system-out><![CDATA[2022-01-24 09:32:30 - [TEST_CASE][PASSED] - Test Cases/User/Wishlist/Pastikan User Dapat Menambah Wishlist di Detail Course: Test Cases/User/Wishlist/Pastikan User Dapat Menambah Wishlist di Detail Course
+
+2022-01-24 09:32:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User/Login/Positive Case/Pastikan User dapat melakukan Login"), ["username":"fitrianisa@yopmail.com", "password":"123Abcde"], STOP_ON_FAILURE): Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login' successfully
+
+2022-01-24 09:32:31 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login
+
+2022-01-24 09:32:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2022-01-24 09:32:31 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2022-01-24 09:32:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 09:32:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 09:32:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 09:32:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 09:32:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 09:32:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-24 09:32:32 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-24 09:32:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2022-01-24 09:32:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Negative to URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2022-01-24 09:32:32 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Negative to URL: Test Cases/CustomKeyword/Negative to URL
+
+2022-01-24 09:32:32 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2022-01-24 09:32:37 - [MESSAGE][PASSED] - Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2022-01-24 09:32:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2022-01-24 09:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5")): Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2022-01-24 09:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2022-01-24 09:32:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Pijar Mahir/button_Masuk")): Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2022-01-24 09:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2022-01-24 09:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email_email"), username): Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2022-01-24 09:32:40 - [MESSAGE][PASSED] - Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2022-01-24 09:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password_password"), password): Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2022-01-24 09:32:40 - [MESSAGE][PASSED] - Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2022-01-24 09:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2022-01-24 09:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2022-01-24 09:32:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login' successfully
+
+2022-01-24 09:32:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Home Page/Page_Pijar Mahir/h3_Kategori"), "Kategori"): Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/h3_Kategori' are matched.
+
+2022-01-24 09:32:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/h3_Kategori' are matched.
+
+2022-01-24 09:32:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Pijar Mahir/h3_Kategori"), 0): Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/h3_Kategori' successfully
+
+2022-01-24 09:32:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-24 09:32:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/h3_Kategori' successfully
+
+2022-01-24 09:32:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-24 09:32:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-24 09:32:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari"), "Terakhir dicari"): Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari' are matched.
+
+2022-01-24 09:32:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari' are matched.
+
+2022-01-24 09:32:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari"), 0): Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari' successfully
+
+2022-01-24 09:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-24 09:32:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Terakhir dicari' successfully
+
+2022-01-24 09:32:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-24 09:32:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-24 09:32:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir"), "Kelas Terbaik Pijar Mahir!"): Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir' are matched.
+
+2022-01-24 09:32:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir' are matched.
+
+2022-01-24 09:32:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir"), 0): Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir' successfully
+
+2022-01-24 09:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-24 09:32:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Kelas Terbaik Pijar Mahir' successfully
+
+2022-01-24 09:32:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-24 09:32:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-24 09:32:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Rekomendasi Kursus"), "Rekomendasi Kursus"): Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Rekomendasi Kursus' are matched.
+
+2022-01-24 09:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Rekomendasi Kursus' are matched.
+
+2022-01-24 09:32:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Rekomendasi Kursus"), 0): Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Rekomendasi Kursus' successfully
+
+2022-01-24 09:32:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-24 09:32:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Pijar Mahir/Page_Pijar Mahir/h3_Rekomendasi Kursus' successfully
+
+2022-01-24 09:32:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-24 09:32:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-24 09:32:59 - [TEST_STEP][PASSED] - focus(findTestObject("Wishlist/Tambah Wishlist/Page_Pijar Mahir/Page_Pijar Mahir/img_Lihat Semua_rounded-lg rounded-br-lg")): Object: 'Object Repository/Wishlist/Tambah Wishlist/Page_Pijar Mahir/Page_Pijar Mahir/img_Lihat Semua_rounded-lg rounded-br-lg' is focused
+
+2022-01-24 09:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Wishlist/Tambah Wishlist/Page_Pijar Mahir/Page_Pijar Mahir/img_Lihat Semua_rounded-lg rounded-br-lg' is focused
+
+2022-01-24 09:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Wishlist/Tambah Wishlist/Page_Pijar Mahir/Page_Pijar Mahir/img_Lihat Semua_rounded-lg rounded-br-lg")): Object: 'Object Repository/Wishlist/Tambah Wishlist/Page_Pijar Mahir/Page_Pijar Mahir/img_Lihat Semua_rounded-lg rounded-br-lg' is clicked on
+
+2022-01-24 09:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Wishlist/Tambah Wishlist/Page_Pijar Mahir/Page_Pijar Mahir/img_Lihat Semua_rounded-lg rounded-br-lg' is clicked on
+
+2022-01-24 09:33:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Wishlist/Tambah Wishlist/p_Benefit yang Didapat"), 0): Scroll to object 'Object Repository/Wishlist/Tambah Wishlist/p_Benefit yang Didapat' successfully
+
+2022-01-24 09:33:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-24 09:33:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Wishlist/Tambah Wishlist/p_Benefit yang Didapat' successfully
+
+2022-01-24 09:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Wishlist/Tambah Wishlist/button_Wishlist")): Object: 'Object Repository/Wishlist/Tambah Wishlist/button_Wishlist' is clicked on
+
+2022-01-24 09:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Wishlist/Tambah Wishlist/button_Wishlist' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wishlist" time="17.747" classname="Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wishlist" status="PASSED">
+         <system-out><![CDATA[2022-01-24 09:33:32 - [TEST_CASE][PASSED] - Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wishlist: Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wishlist
+
+2022-01-24 09:33:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User/Wishlist/Pastikan User Dapat Mengakses Wishlist"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist' successfully
+
+2022-01-24 09:33:33 - [TEST_CASE][PASSED] - Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist: Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist
+
+2022-01-24 09:33:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User/Login/Positive Case/Pastikan User dapat melakukan Login"), ["username":"fitrianisa@yopmail.com", "password":"123Abcde"], STOP_ON_FAILURE): Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login' successfully
+
+2022-01-24 09:33:33 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login
+
+2022-01-24 09:33:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2022-01-24 09:33:33 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2022-01-24 09:33:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 09:33:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 09:33:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 09:33:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 09:33:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 09:33:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-24 09:33:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-24 09:33:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2022-01-24 09:33:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Negative to URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2022-01-24 09:33:35 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Negative to URL: Test Cases/CustomKeyword/Negative to URL
+
+2022-01-24 09:33:35 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2022-01-24 09:33:39 - [MESSAGE][PASSED] - Navigate to 'https://dev2.pijarmahir.id' successfully
+
+2022-01-24 09:33:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Negative to URL' successfully
+
+2022-01-24 09:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5")): Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2022-01-24 09:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button__z-2 absolute right-0 top-0 bg-white w-10 h-10 flex rounded-full justify-center items-center border-black-300 border-2.5' is clicked on
+
+2022-01-24 09:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Pijar Mahir/button_Masuk")): Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2022-01-24 09:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Pijar Mahir/button_Masuk' is clicked on
+
+2022-01-24 09:33:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email_email"), username): Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2022-01-24 09:33:42 - [MESSAGE][PASSED] - Text 'fitrianisa@yopmail.com' is set on object 'Object Repository/Login/input_Email_email'
+
+2022-01-24 09:33:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password_password"), password): Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2022-01-24 09:33:43 - [MESSAGE][PASSED] - Text '123Abcde' is set on object 'Object Repository/Login/input_Password_password'
+
+2022-01-24 09:33:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2022-01-24 09:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2022-01-24 09:33:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan Login' successfully
+
+2022-01-24 09:33:43 - [TEST_STEP][PASSED] - focus(findTestObject("Top Bar/Page_Pijar Mahir/button_profile")): Object: 'Object Repository/Top Bar/Page_Pijar Mahir/button_profile' is focused
+
+2022-01-24 09:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar/Page_Pijar Mahir/button_profile' is focused
+
+2022-01-24 09:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar/Page_Pijar Mahir/span_Wishlist Saya")): Object: 'Object Repository/Top Bar/Page_Pijar Mahir/span_Wishlist Saya' is clicked on
+
+2022-01-24 09:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar/Page_Pijar Mahir/span_Wishlist Saya' is clicked on
+
+2022-01-24 09:33:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya"), "Wishlist Saya"): Actual text and expected text of test object 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya' are matched.
+
+2022-01-24 09:33:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya' are matched.
+
+2022-01-24 09:33:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/Wishlist/Pastikan User Dapat Mengakses Wishlist' successfully
+
+2022-01-24 09:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Wishlist/Page_Pijar Mahir - Wishlist/btn_hapus_wishlist")): Object: 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/btn_hapus_wishlist' is clicked on
+
+2022-01-24 09:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/btn_hapus_wishlist' is clicked on
+
+2022-01-24 09:33:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wishlist/Page_Pijar Mahir - Wishlist/p_Kamu yakin mau hapus kursus ini"), "Kamu yakin mau hapus kursus ini?"): Actual text and expected text of test object 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/p_Kamu yakin mau hapus kursus ini' are matched.
+
+2022-01-24 09:33:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/p_Kamu yakin mau hapus kursus ini' are matched.
+
+2022-01-24 09:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Wishlist/Page_Pijar Mahir - Wishlist/button_Hapus")): Object: 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/button_Hapus' is clicked on
+
+2022-01-24 09:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Wishlist/Page_Pijar Mahir - Wishlist/button_Hapus' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-24 09:32:11 - [TEST_SUITE][PASSED] - Pastikan User Dapat Mengakses Wishlist Detail Course: Test Cases/User/Wishlist/Pastikan User Dapat Menghapus Wishlist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

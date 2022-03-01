@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Mengakses Home Page Get Dynamic Collection for Landing Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe448e5b-234f-4b3a-8f0d-1f9d5542adb7</testCaseGuid>
+   <variable>
+      <defaultValue>'atikarizki41@gmail.com'</defaultValue>
+      <description></description>
+      <id>68b5b76a-c7c9-4c40-8a8c-9b5010db298b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'kiki1999'</defaultValue>
+      <description></description>
+      <id>2399451a-9cbc-4904-bb29-8f9ac0fb8431</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

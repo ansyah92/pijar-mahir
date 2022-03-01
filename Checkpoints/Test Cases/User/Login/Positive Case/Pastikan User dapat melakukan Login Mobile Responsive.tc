@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User dapat melakukan Login Mobile Responsive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bca5f1c-1d79-4faf-8649-3401637ad53b</testCaseGuid>
+   <variable>
+      <defaultValue>'fitrianisa@yopmail.com'</defaultValue>
+      <description></description>
+      <id>22d8099b-f6c5-4ef8-a08f-0338378b2300</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123Abcde'</defaultValue>
+      <description></description>
+      <id>500f1b6e-53ba-45a9-bad6-3ef385464f50</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User dapat melakukan Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdf2a8cc-ee51-4444-b4a1-244a4570f4ad</testCaseGuid>
+   <variable>
+      <defaultValue>'atikarizki41@gmail.com'</defaultValue>
+      <description></description>
+      <id>6f1fd8b3-5de6-49e6-9342-58e71e08f0e6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'kiki1999'</defaultValue>
+      <description></description>
+      <id>c02cff72-b26d-4ddd-a89f-a3c8eea1dfc0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

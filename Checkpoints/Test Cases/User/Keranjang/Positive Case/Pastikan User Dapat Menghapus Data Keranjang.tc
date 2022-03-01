@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Menghapus Data Keranjang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf12a83f-8329-4aec-a9e0-327b5052d099</testCaseGuid>
+</TestCaseEntity>

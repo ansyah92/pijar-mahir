@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Menambah Course Ke Keranjang dan Pindah Ke Wishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>983a61f7-2442-4156-b2d6-53545faf6019</testCaseGuid>
+</TestCaseEntity>

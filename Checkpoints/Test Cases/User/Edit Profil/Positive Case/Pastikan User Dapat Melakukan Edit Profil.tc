@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Melakukan Edit Profil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ff1f80f-aa2f-4c37-a79b-c14ced9f808e</testCaseGuid>
+   <variable>
+      <defaultValue>'/Users/ardiansyah/Documents/Work/Telkom/PijarMahir/Image/depositphotos_53491489-stock-illustration-example-rubber-stamp-vector-over.jpg'</defaultValue>
+      <description></description>
+      <id>51fab6fb-8587-45c8-bc11-f80a405d8ff9</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

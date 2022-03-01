@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Menambah Course Ke Keranjang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a79e2199-a1f8-41c5-b58b-ac1cd840dbc5</testCaseGuid>
+</TestCaseEntity>

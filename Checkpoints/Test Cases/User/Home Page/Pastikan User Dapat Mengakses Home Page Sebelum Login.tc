@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Dapat Mengakses Home Page Sebelum Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7018c29b-c601-4c8e-a58a-14e6a611a2eb</testCaseGuid>
+</TestCaseEntity>

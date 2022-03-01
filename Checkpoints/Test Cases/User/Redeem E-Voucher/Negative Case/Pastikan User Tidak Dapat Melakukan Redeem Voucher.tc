@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User Tidak Dapat Melakukan Redeem Voucher</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1e305dd-f6eb-4155-85aa-e79694d6c84e</testCaseGuid>
+</TestCaseEntity>

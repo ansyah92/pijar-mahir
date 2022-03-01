@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User dapat mengakses Pecarian data Ketika Belum Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3eedfaa-2c06-440d-a504-db6ed1eace58</testCaseGuid>
+</TestCaseEntity>

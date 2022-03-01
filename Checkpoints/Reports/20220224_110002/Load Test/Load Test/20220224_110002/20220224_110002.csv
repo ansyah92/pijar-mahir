@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Load Test,Chrome 98.0.4758.102,,,2022-02-24 11:00:17,2022-02-24 11:02:38,2m - 20.343s,PASSED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Home Page Get All Course of Prakerja,Chrome 98.0.4758.102,,,2022-02-24 11:00:18,2022-02-24 11:00:46,27.873s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:00:18,2022-02-24 11:00:36,17.602s,PASSED
+"click(findTestObject(""Home Page/Prod/Prakerja/div_Pijar Camp_rounded-tl-3xl rounded-br-lg mt-2 mdw-full w-28""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:00:36,2022-02-24 11:00:41,4.801s,PASSED
+delay(5),Chrome 98.0.4758.102,,,2022-02-24 11:00:41,2022-02-24 11:00:46,5.019s,PASSED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Home Page Get Dynamic Collection for Landing Page,Chrome 98.0.4758.102,,,2022-02-24 11:00:46,2022-02-24 11:01:07,20.960s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:00:46,2022-02-24 11:00:58,12.111s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Prakerja/a_Kartu Prakerja""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:00:58,2022-02-24 11:01:02,4.386s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Prakerja/a_Pengembangan Diri""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:01:02,2022-02-24 11:01:05,2.259s,PASSED
+"verifyElementText(findTestObject(""Home Page/Prod/Prakerja/h3_Kartu Prakerja""), ""Kartu Prakerja"")",Chrome 98.0.4758.102,,,2022-02-24 11:01:05,2022-02-24 11:01:05,0.396s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Prakerja/h3_Kartu Prakerja""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:01:05,2022-02-24 11:01:06,0.510s,PASSED
+"click(findTestObject(""Home Page/Prod/Prakerja/button_Kartu_Prakerja_Next""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:06,2022-02-24 11:01:06,0.375s,PASSED
+"click(findTestObject(""Home Page/Prod/Prakerja/button_Kartu-Prakerja_Prev""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:06,2022-02-24 11:01:07,0.656s,PASSED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Kursus Saya Pijar Mahir,Chrome 98.0.4758.102,,,2022-02-24 11:01:07,2022-02-24 11:01:33,26.372s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:01:07,2022-02-24 11:01:19,11.861s,PASSED
+"focus(findTestObject(""Home Page/Prod/Kursus Saya/button_Pijar_Profil""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:19,2022-02-24 11:01:23,4.317s,PASSED
+"click(findTestObject(""Home Page/Prod/Kursus Saya/button_Pijar_Profil""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:23,2022-02-24 11:01:24,0.558s,PASSED
+"click(findTestObject(""Home Page/Prod/Kursus Saya/span_Kursus Saya""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:24,2022-02-24 11:01:25,1.623s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_Dalam Proses_mahir""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:25,2022-02-24 11:01:27,1.506s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_Selesai_mahir""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:27,2022-02-24 11:01:28,1.231s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_Semua_mahir""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:28,2022-02-24 11:01:29,0.973s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_x_mahir""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:29,2022-02-24 11:01:30,0.814s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/span_Kursus Mitra Pelatihan""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:30,2022-02-24 11:01:31,0.741s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_Selesai_pelatihan""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:31,2022-02-24 11:01:32,1.076s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_Semua_pelatihan""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:32,2022-02-24 11:01:32,0.825s,PASSED
+"click(findTestObject(""Kursus Saya/Page_Pijar Mahir - Kursus Saya/button_x_pelatihan""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:32,2022-02-24 11:01:33,0.569s,PASSED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User dapat mengakses Pecarian data dan Detail Course Ketika Login,Chrome 98.0.4758.102,,,2022-02-24 11:01:33,2022-02-24 11:01:57,24.337s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:01:33,2022-02-24 11:01:45,11.675s,PASSED
+"click(findTestObject(""Search/input_Kategori_search""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:45,2022-02-24 11:01:49,4.511s,PASSED
+"setText(findTestObject(""Search/input_Kategori_search""), ""Cara Komunikasi Profesional untuk Bisnis Sukses"")",Chrome 98.0.4758.102,,,2022-02-24 11:01:49,2022-02-24 11:01:52,2.399s,PASSED
+"click(findTestObject(""Search/button_Kategori_w-10 h-full flex justify-center items-center bg-black-200""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:52,2022-02-24 11:01:52,0.609s,PASSED
+"click(findTestObject(""Home Page/Prod/Detail Course/img_concat(, , Cara Komunikasi Profesional untuk Bisnis Sukses, , )_rounded-lg h-full w-full""))",Chrome 98.0.4758.102,,,2022-02-24 11:01:52,2022-02-24 11:01:54,1.131s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Detail Course/h3_Highlight""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:01:54,2022-02-24 11:01:56,2.240s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Detail Course/h3_Detail""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:01:56,2022-02-24 11:01:57,0.652s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Detail Course/h3_Materi Pelatihan""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:01:57,2022-02-24 11:01:57,0.348s,PASSED
+"scrollToElement(findTestObject(""Home Page/Prod/Detail Course/h3_Rating  Ulasan""), 0)",Chrome 98.0.4758.102,,,2022-02-24 11:01:57,2022-02-24 11:01:57,0.512s,PASSED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Sertifikat Saya,Chrome 98.0.4758.102,,,2022-02-24 11:01:57,2022-02-24 11:02:19,21.358s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:01:58,2022-02-24 11:02:10,12.323s,PASSED
+"focus(findTestObject(""Home Page/Prod/Kursus Saya/button_Pijar_Profil""))",Chrome 98.0.4758.102,,,2022-02-24 11:02:10,2022-02-24 11:02:14,4.476s,PASSED
+"click(findTestObject(""Home Page/Prod/Kursus Saya/button_Pijar_Profil""))",Chrome 98.0.4758.102,,,2022-02-24 11:02:14,2022-02-24 11:02:15,0.438s,PASSED
+"click(findTestObject(""Home Page/Prod/Sertifikat/span_Sertifikat Saya""))",Chrome 98.0.4758.102,,,2022-02-24 11:02:15,2022-02-24 11:02:16,1.547s,PASSED
+"verifyElementText(findTestObject(""Home Page/Prod/Sertifikat/h1_Sertifikat Saya""), ""Sertifikat Saya"")",Chrome 98.0.4758.102,,,2022-02-24 11:02:16,2022-02-24 11:02:18,1.820s,PASSED
+"click(findTestObject(""Home Page/Prod/Sertifikat/button_Download Sertifikat""))",Chrome 98.0.4758.102,,,2022-02-24 11:02:18,2022-02-24 11:02:19,0.491s,PASSED
+,,,,,,,
+Test Cases/User/Load Test/Pastikan User Dapat Mengakses Wishlist,Chrome 98.0.4758.102,,,2022-02-24 11:02:19,2022-02-24 11:02:38,18.895s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan Login""), [""username"":""atikarizki41@gmail.com"", ""password"":""kiki1999""], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-24 11:02:19,2022-02-24 11:02:31,11.636s,PASSED
+"click(findTestObject(""Top Bar/Page_Pijar Mahir/button_profile""))",Chrome 98.0.4758.102,,,2022-02-24 11:02:31,2022-02-24 11:02:35,4.203s,PASSED
+"click(findTestObject(""Top Bar/Page_Pijar Mahir/span_Wishlist Saya""))",Chrome 98.0.4758.102,,,2022-02-24 11:02:35,2022-02-24 11:02:37,2.086s,PASSED
+"verifyElementText(findTestObject(""Wishlist/Page_Pijar Mahir - Wishlist/h1_Wishlist Saya""), ""Wishlist Saya"")",Chrome 98.0.4758.102,,,2022-02-24 11:02:37,2022-02-24 11:02:38,0.738s,PASSED
